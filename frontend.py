@@ -94,7 +94,7 @@ def NewRoot():
     NewRoot.title("Tutorial")
     NewRoot.geometry("500x350")
     NewRoot.resizable(0, 0)
-    NewRoot.iconbitmap("icon.ico")
+    NewRoot.iconbitmap(r'C:\Users\saeed\PycharmProjects\pythonProject\.venv\mymoudle\icon.ico')
     T = Text(NewRoot, height=15, width=54, font=("Roboto Light", 12))
     l = Label(NewRoot, text="How to do it?")
     l.config(font=("Roboto Regular", 14))
